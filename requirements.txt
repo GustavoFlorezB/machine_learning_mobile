@@ -2,7 +2,7 @@ Flask==2.1.0
 Werkzeug==2.0.3
 numpy==1.22.0
 gunicorn==20.1.0
-sklearn
+scikit-learn
 jinja2
 Werkzeug
 itsdangerous
