@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-!pip install gunicorn
-
 from flask import Flask,request,jsonify
 import numpy as np
 import pickle
@@ -10,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return "Hello world"
-@app.route('/predict',methods=['POST'])
+@app.route('/predict',methods=['POST','GET'])
 def predict():
     cgpa = request.form.get('cgpa')
     iq = request.form.get('iq')
