@@ -2,7 +2,7 @@ Flask
 Werkzeug
 numpy
 gunicorn
-scikit-learn
+scikit-learn==1.2.2
 jinja2
 Werkzeug
 itsdangerous
